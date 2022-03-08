@@ -8,5 +8,5 @@ names = names_string.split(", ")
 total_ppl = len(names)
 random_person = random.randint(0, total_ppl)
 print(names[random_person])
-
+# Final Solution
 
