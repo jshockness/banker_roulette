@@ -8,6 +8,7 @@ names = names_string.split(", ")
 # Get total number of items in array
 total_ppl = len(names)
 random_person = random.randint(0, total_ppl - 1)
-payer = names[random_person]
+# payer = names[random_person]
+# Final Solution with random.choice method
+payer = random.choice(names)
 print(payer + " will pay the bill today.")
-# Final Solution
